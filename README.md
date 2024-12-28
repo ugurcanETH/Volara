@@ -6,7 +6,7 @@ Bu rehber, Volara projesi için bir miner kurulumu yaparken izlenecek adımları
 - Ubuntu 20.04 veya üstü bir Linux sunucu. Ben hem Volara hem de SixGPT aynı sunucuda çalıştırıyorum, sunucu Hetzner CX32.
 - Twitter ve Gmail hesabı bağlamanız gerekmekte. Bu nedenle ben yeni bir Twitter hesabı açtım, birkaç hesap takip ettim, ortalama 50 civarında. Normal hesaplarda günlük sınırlama olduğu için de Twitter Blue aldım hesabıma sorunsuz veri işlemesi için. Bununla birlikte yeni bir Gmail hesabı açtım burada kullanmak için.
 - Vana cüzdanı oluşturun ya da mevcut Vana cüzdanınıza minimum 0.1 $VANA atın. (Ben 0.5 $VANA attım, uzunca süre yetecektir.)
-- https://volara.xyz/ sitesine giderek Twitter hesabınızı bağlayın. Gerekli onayı verdikten sonra Validate tuşuna basarak işlemi onaylayın. **Not: Bunu yapmadan önce Vana Mainnet ağını Metamask'a eklemeniz gerekiyor, bunun için https://chainlist.org/ kullanabilirsiniz.**
+- https://volara.xyz/ sitesine giderek önce Metamask cüzdanınızı bağlayıp onaylayın. Daha sonra Connect X kısmına tıklayarak Twitter hesabınızı bağlayın. Gerekli onayı verdikten sonra Validate with Vana tuşuna basarak işlemi onaylayın. Start Mining yazısını gördüyseniz sorunsuz şekilde tamamladınız, eğer Validate with Vana diye çıkarsa işlemi onaylamak konusunda problem olmuş demektir tekrar deneyin. **Not: Bunu yapmadan önce Vana Mainnet ağını Metamask'a eklemeniz gerekiyor, bunun için https://chainlist.org/ kullanabilirsiniz.**
 
 **Not: Eğer SixGPT ile birlikte kuruyorsanız direk 4. Aşamadan başlayın. Aksi halde 1. aşamadan başlayarak kurulumu gerçekleştireceksiniz.**
 
@@ -99,7 +99,28 @@ Bu aşamadan sonra Volara Miner çalışmaya başlayacak.
 
 Enter your burner wallet's private key: <Buraya Kullanacağınız Cüzdanınızın Private Key'ini yapıştırıp ENTER basın.
 
+Copy and paste this URL into your browser: <Burada size verdiği linki kopyalayıp tarayıcınıza yapıştırın. Gmail hesabına giriş yapmanızı isteyecek, giriş yaptıktan sonra size Valora Auth code yazan bir kod verecek, onu kopyalayın ve terminale dönüp yapıştırın ve ENTER basın.
+Bu adımdan sonra Twitter hesabınıza girmenizi isteyecek.
+Twitter hesabınızın kullanıcı adını yazıp ENTER basın.
+Twitter şifrenizi girerek ENTER basın.
+Bu adımdan sonra başarıyla çalışmaya başlayacak.
 
+CTRL + A + D kombinasyonunu kullanarak ekranı Detached hale getireceksiniz.
 
+**9. Logları Kontrol Etmeniz Gerekirse**
 
+Sunucuya giriş yaptıktan sonra, 
+```bash
+screen -ls
+```
 
+Çıktıların içinde 
+xxxx.volara (xx/xx/xxxx xx:xx:xx AM/PM)    (Detached)
+Şeklinde bir çıktı göreceksiniz. Baştaki 4 haneli rakamı aşağıdaki xxxx kısmına yazın.
+
+```bash
+screen -r xxxx
+```
+
+Ekranı tekrar kapatmak için CTRL + A + D kombinasyonunu kullanın.
+Log ekranını kapatmak için CTRL + C kombinasyonunu kullanın.
