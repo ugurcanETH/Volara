@@ -124,3 +124,5 @@ screen -r xxxx
 
 Ekranı tekrar kapatmak için CTRL + A + D kombinasyonunu kullanın.
 Log ekranını kapatmak için CTRL + C kombinasyonunu kullanın.
+
+NOT: Kurulum başarıyla tamamlandı, ara ara https://volara.xyz/ sitesine giderek puanınızın artıp artmadığını kontrol edebilirsiniz. Aynı zamanda her proof için Vana Explorer'ı kontrol edebilirsiniz.
