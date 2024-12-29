@@ -100,6 +100,7 @@ Bu aşamadan sonra Volara Miner çalışmaya başlayacak.
 Enter your burner wallet's private key: <Buraya Kullanacağınız Cüzdanınızın Private Key'ini yapıştırıp ENTER basın.
 
 Copy and paste this URL into your browser: <Burada size verdiği linki kopyalayıp tarayıcınıza yapıştırın. Gmail hesabına giriş yapmanızı isteyecek, giriş yaptıktan sonra size Valora Auth code yazan bir kod verecek, onu kopyalayın ve terminale dönüp yapıştırın ve ENTER basın.
+
 Bu adımdan sonra Twitter hesabınıza girmenizi isteyecek.
 Twitter hesabınızın kullanıcı adını yazıp ENTER basın.
 Twitter şifrenizi girerek ENTER basın.
