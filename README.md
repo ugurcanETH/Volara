@@ -1,4 +1,4 @@
-# Volara
+# Volara Miner Kurulum Rehberi
 Bu rehber, Volara projesi için bir miner kurulumu yaparken izlenecek adımları içermektedir. Screen komutları ile çalışmaya uygun şekilde hazırlanmıştır.
 
 # Ön Hazırlık Aşaması
